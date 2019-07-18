@@ -1,10 +1,9 @@
 <h1>Instructions</h1>
-<p>
-1. $git clone https://github.com/jorrharris/gatsbyWordpressStarter.git
-
-2. $npm install
-
-3. $gatsby develop
-
-4. Enjoy!
-</p>
+<ul>
+  <li>$git clone https://github.com/jorrharris/gatsbyWordpressStarter.git
+</li>
+  <li>$npm install
+</li>
+  <li>$gatsby develop</li>
+  <li>Check out localhost:8000</li>
+</ul>
