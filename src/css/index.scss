@@ -1,0 +1,129 @@
+//Reset Paddings
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span,
+em,
+small,
+strong,
+sub,
+sup,
+mark,
+del,
+ins,
+strike,
+abbr,
+dfn,
+blockquote,
+q,
+cite,
+code,
+pre,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+div,
+section,
+article,
+main,
+aside,
+nav,
+header,
+hgroup,
+footer,
+img,
+figure,
+figcaption,
+address,
+time,
+audio,
+video,
+canvas,
+iframe,
+details,
+summary,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+$primaryColor: #fd9696;
+$secondaryColor: #fdfd96;
+$bgColor: #9696fd;
+
+.btn {
+  background-color: $primaryColor;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+  min-width: 150px;
+}
+
+.page {
+  padding: 2rem;
+  background-color: $bgColor;
+  min-height: 100vh;
+}
+
+.post {
+  background-color: $secondaryColor;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.linkList {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: "100%";
+  border-color: "black";
+  border-width: 4px;
+}
+
+.date {
+  font-style: italic;
+}
+
+.title {
+  text-decoration: none;
+  color: black;
+}
+
+.tasksContainer {
+  margin-top: 1rem;
+}
+
+.tasks {
+  margin-left: 2rem;
+}
+
+.description {
+  margin-top: 0.5rem;
+}
